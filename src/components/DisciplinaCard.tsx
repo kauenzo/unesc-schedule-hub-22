@@ -9,6 +9,7 @@ interface DisciplinaCardProps {
   turma?: string | null;
   onClick?: () => void;
   searchQuery?: string;
+  isHoje?: boolean;
 }
 
 function highlightText(text: string, query: string) {
@@ -26,7 +27,7 @@ function highlightText(text: string, query: string) {
   );
 }
 
-export function DisciplinaCard({ disciplina, fase, turma, onClick, searchQuery }: DisciplinaCardProps) {
+export function DisciplinaCard({ disciplina, fase, turma, onClick, searchQuery, isHoje }: DisciplinaCardProps) {
   const contextFase = "fase" in disciplina ? (disciplina as DisciplinaComContexto).fase : fase;
   const contextTurma = "turma" in disciplina ? (disciplina as DisciplinaComContexto).turma : turma;
   const isDistancia = disciplina.modalidade === "a_distancia";
@@ -42,6 +43,11 @@ export function DisciplinaCard({ disciplina, fase, turma, onClick, searchQuery }
           {searchQuery ? highlightText(disciplina.nome, searchQuery) : disciplina.nome}
         </h4>
         <div className="flex gap-1 shrink-0">
+          {isHoje && (
+            <Badge className="text-[10px] px-1.5 py-0 bg-accent/15 text-accent border-accent/30" variant="outline">
+              Hoje
+            </Badge>
+          )}
           {isDistancia && (
             <Badge variant="secondary" className="text-[10px] px-1.5 py-0 bg-accent/15 text-accent border-accent/30">
               <Wifi className="w-3 h-3 mr-0.5" />
