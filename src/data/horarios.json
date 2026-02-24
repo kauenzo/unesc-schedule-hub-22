@@ -22,8 +22,8 @@
           "nome": "Resoluções de Problemas Computacionais",
           "complemento": null,
           "professor": "Luciano",
-          "sala": "K-001",
-          "laboratorio": null,
+          "sala": null,
+          "laboratorio": "XXIA 003",
           "modalidade": "presencial",
           "dia_semana": "Terça"
         },
@@ -32,8 +32,8 @@
           "nome": "Fundamentos Matemáticos",
           "complemento": "NCC",
           "professor": "Louise",
-          "sala": null,
-          "laboratorio": "XXIA 103",
+          "sala": "K-001",
+          "laboratorio": null,
           "modalidade": "presencial",
           "dia_semana": "Quarta"
         },
@@ -43,7 +43,7 @@
           "complemento": null,
           "professor": "Ênio",
           "sala": null,
-          "laboratorio": null,
+          "laboratorio": "XXIA 103",
           "modalidade": "presencial",
           "dia_semana": "Quinta"
         },
@@ -55,7 +55,7 @@
           "sala": null,
           "laboratorio": null,
           "modalidade": "a_distancia",
-          "dia_semana": "Sexta"
+          "dia_semana": "Sábado"
         }
       ]
     },
@@ -68,7 +68,7 @@
           "nome": "Sistemas Eletrônicos",
           "complemento": null,
           "professor": "Ênio",
-          "sala": "K-004",
+          "sala": null,
           "laboratorio": "XXIA 103",
           "modalidade": "presencial",
           "dia_semana": "Segunda"
@@ -79,7 +79,7 @@
           "complemento": "NCC",
           "professor": "Adriano",
           "sala": "K-004",
-          "laboratorio": "XXIA 003",
+          "laboratorio": null,
           "modalidade": "presencial",
           "dia_semana": "Terça"
         },
@@ -88,7 +88,7 @@
           "nome": "Evolução da Tecnologia",
           "complemento": null,
           "professor": "Diorgines",
-          "sala": null,
+          "sala": "K-004",
           "laboratorio": null,
           "modalidade": "presencial",
           "dia_semana": "Quarta"
@@ -99,7 +99,7 @@
           "complemento": null,
           "professor": "Diorgines",
           "sala": null,
-          "laboratorio": null,
+          "laboratorio": "XXIA 003",
           "modalidade": "presencial",
           "dia_semana": "Quinta"
         },
@@ -111,7 +111,7 @@
           "sala": null,
           "laboratorio": null,
           "modalidade": "a_distancia",
-          "dia_semana": "Sexta"
+          "dia_semana": "Sábado"
         }
       ]
     },
@@ -124,7 +124,7 @@
           "nome": "Laboratório de Programação",
           "complemento": "NCC",
           "professor": "Luciano",
-          "sala": "K-003",
+          "sala": null,
           "laboratorio": "XXIA 001",
           "modalidade": "presencial",
           "dia_semana": "Segunda"
@@ -134,7 +134,7 @@
           "nome": "Desenvolvimento de Aplicações I",
           "complemento": "NCC",
           "professor": "Giácomo",
-          "sala": "K-003",
+          "sala": null,
           "laboratorio": "XXIA 001",
           "modalidade": "presencial",
           "dia_semana": "Terça"
@@ -143,8 +143,18 @@
           "codigo": "27699",
           "nome": "Design de Interação",
           "complemento": "NCC",
-          "professor": "Leila/Ana Claudia",
-          "sala": null,
+          "professor": "Leila",
+          "sala": "K-003",
+          "laboratorio": "XXIA 001",
+          "modalidade": "presencial",
+          "dia_semana": "Quarta"
+        },
+        {
+          "codigo": "27698",
+          "nome": "Lógica Computacional",
+          "complemento": "NCC",
+          "professor": "Ana Claudia",
+          "sala": "K-003",
           "laboratorio": "XXIA 001",
           "modalidade": "presencial",
           "dia_semana": "Quarta"
@@ -154,8 +164,8 @@
           "nome": "Funções e Derivadas",
           "complemento": "NCA",
           "professor": "Louise",
-          "sala": null,
-          "laboratorio": "XXIA 103",
+          "sala": "K-003",
+          "laboratorio": null,
           "modalidade": "presencial",
           "dia_semana": "Quinta",
           "turma_referencia": "T2"
@@ -166,17 +176,7 @@
           "complemento": null,
           "professor": "Ênio",
           "sala": null,
-          "laboratorio": null,
-          "modalidade": "presencial",
-          "dia_semana": "Sexta"
-        },
-        {
-          "codigo": "27700",
-          "nome": "Lógica Computacional",
-          "complemento": "NCC",
-          "professor": "Ênio",
-          "sala": null,
-          "laboratorio": null,
+          "laboratorio": "XXIA 103",
           "modalidade": "presencial",
           "dia_semana": "Sexta"
         }
@@ -192,7 +192,7 @@
           "complemento": "NCA",
           "professor": "Louise",
           "sala": "K-004",
-          "laboratorio": "XXIA 104",
+          "laboratorio": null,
           "modalidade": "presencial",
           "dia_semana": "Segunda",
           "turma_referencia": "T2"
@@ -230,7 +230,7 @@
         {
           "codigo": "27309",
           "nome": "Estatística",
-          "complemento": "NCA",
+          "complemento": "Andrigo",
           "professor": null,
           "sala": null,
           "laboratorio": null,
@@ -241,9 +241,9 @@
           "codigo": "27704",
           "nome": "Resolução de Problemas Estruturados I",
           "complemento": "NCC",
-          "professor": "Andrigo/Diorgines",
+          "professor": "Diorgines",
           "sala": null,
-          "laboratorio": null,
+          "laboratorio": "XXIA 104",
           "modalidade": "presencial",
           "dia_semana": "Sexta"
         }
@@ -259,7 +259,7 @@
           "complemento": "NCA",
           "professor": "Kristian",
           "sala": "R2-102",
-          "laboratorio": "XXIA 003",
+          "laboratorio": null,
           "modalidade": "presencial",
           "dia_semana": "Segunda",
           "turma_referencia": "T4"
@@ -269,8 +269,8 @@
           "nome": "Resolução de Problemas Estruturados I",
           "complemento": "NCC",
           "professor": "Diorgines",
-          "sala": null,
-          "laboratorio": "XXIA 003",
+          "sala": "XXIA 003",
+          "laboratorio": null,
           "modalidade": "presencial",
           "dia_semana": "Terça"
         },
@@ -310,7 +310,7 @@
           "complemento": null,
           "professor": "Sergio",
           "sala": null,
-          "laboratorio": null,
+          "laboratorio": "XXIA 003",
           "modalidade": "presencial",
           "dia_semana": "Sexta"
         }
@@ -325,7 +325,7 @@
           "nome": "Desenvolvimento de Aplicações II",
           "complemento": "NCC",
           "professor": "André",
-          "sala": "K-004",
+          "sala": null,
           "laboratorio": "XXIA 002",
           "modalidade": "presencial",
           "dia_semana": "Segunda"
@@ -355,8 +355,8 @@
           "nome": "Sistemas Operacionais",
           "complemento": "NCC",
           "professor": "Sergio",
-          "sala": null,
-          "laboratorio": "XXIA 002",
+          "sala": "K-004",
+          "laboratorio": null,
           "modalidade": "presencial",
           "dia_semana": "Quinta"
         },
@@ -366,7 +366,7 @@
           "complemento": "NCC",
           "professor": "Allan",
           "sala": null,
-          "laboratorio": null,
+          "laboratorio": "XXIA 002",
           "modalidade": "presencial",
           "dia_semana": "Sexta"
         },
@@ -552,7 +552,7 @@
           "codigo": "23245",
           "nome": "TCC I",
           "complemento": null,
-          "professor": null,
+          "professor": "Fiera",
           "sala": null,
           "laboratorio": "XXIA 101",
           "modalidade": "presencial",
@@ -637,28 +637,6 @@
           "dia_semana": "Quinta"
         },
         {
-          "codigo": "23279",
-          "nome": "TCC II",
-          "complemento": null,
-          "professor": null,
-          "sala": null,
-          "laboratorio": "XXIA 201",
-          "modalidade": "presencial",
-          "dia_semana": "Quinta",
-          "observacao": "G4"
-        },
-        {
-          "codigo": "10889",
-          "nome": "TCC II",
-          "complemento": null,
-          "professor": null,
-          "sala": null,
-          "laboratorio": "XXIA 201",
-          "modalidade": "presencial",
-          "dia_semana": "Quinta",
-          "observacao": "G5"
-        },
-        {
           "codigo": "27728",
           "nome": "Compiladores",
           "complemento": null,
@@ -673,16 +651,6 @@
           "nome": "Computação Gráfica",
           "complemento": null,
           "professor": "Marcel",
-          "sala": null,
-          "laboratorio": null,
-          "modalidade": "a_distancia",
-          "dia_semana": "Sábado"
-        },
-        {
-          "codigo": "27015",
-          "nome": "Laboratório Formativo III",
-          "complemento": "NCI",
-          "professor": null,
           "sala": null,
           "laboratorio": null,
           "modalidade": "a_distancia",
@@ -738,23 +706,23 @@
           "codigo": "23279",
           "nome": "TCC II",
           "complemento": null,
-          "professor": null,
-          "sala": null,
-          "laboratorio": "XXIA 201",
-          "modalidade": "presencial",
-          "dia_semana": "Quinta",
-          "observacao": "G4"
-        },
-        {
-          "codigo": "10889",
-          "nome": "TCC II",
-          "complemento": null,
-          "professor": null,
+          "professor": "Marlon",
           "sala": null,
           "laboratorio": "XXIA 201",
           "modalidade": "presencial",
           "dia_semana": "Quinta",
           "observacao": "G5"
+        },
+        {
+          "codigo": "10889",
+          "nome": "TCC II",
+          "complemento": null,
+          "professor": "Marlon",
+          "sala": null,
+          "laboratorio": "XXIA 201",
+          "modalidade": "presencial",
+          "dia_semana": "Quinta",
+          "observacao": "G4"
         },
         {
           "codigo": "27729",
@@ -777,17 +745,6 @@
           "dia_semana": "Sábado"
         },
         {
-          "codigo": "23279",
-          "nome": "TCC II",
-          "complemento": null,
-          "professor": null,
-          "sala": null,
-          "laboratorio": null,
-          "modalidade": "a_distancia",
-          "dia_semana": "Sábado",
-          "observacao": "G4 e G5"
-        },
-        {
           "codigo": "27015",
           "nome": "Laboratório Formativo III",
           "complemento": "NCI",
@@ -796,6 +753,17 @@
           "laboratorio": null,
           "modalidade": "a_distancia",
           "dia_semana": "Sábado"
+        },
+        {
+          "codigo": "23279",
+          "nome": "TCC II",
+          "complemento": null,
+          "professor": "Marcel",
+          "sala": null,
+          "laboratorio": null,
+          "modalidade": "a_distancia",
+          "dia_semana": "Sábado",
+          "observacao": "G5"
         }
       ]
     },
@@ -890,9 +858,8 @@
           "codigo": "27734",
           "nome": "Governança em TI",
           "complemento": null,
-          "professor": null,
           "sala": null,
-          "laboratorio": null,
+          "professor": "Allan/Leila",
           "modalidade": "a_distancia",
           "dia_semana": "Sábado",
           "observacao": "TCC III - G4"
