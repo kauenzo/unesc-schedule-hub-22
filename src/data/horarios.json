@@ -1,0 +1,837 @@
+{
+  "curso": "Ciência da Computação",
+  "semestre": "2026/1",
+  "grade": 6,
+  "fases": [
+    {
+      "fase": 1,
+      "turma": "T1",
+      "disciplinas": [
+        {
+          "codigo": "27696",
+          "nome": "Evolução da Tecnologia",
+          "complemento": null,
+          "professor": "Rogério",
+          "sala": "K-001",
+          "laboratorio": null,
+          "modalidade": "presencial",
+          "dia_semana": "Segunda"
+        },
+        {
+          "codigo": "27694",
+          "nome": "Resoluções de Problemas Computacionais",
+          "complemento": null,
+          "professor": "Luciano",
+          "sala": "K-001",
+          "laboratorio": null,
+          "modalidade": "presencial",
+          "dia_semana": "Terça"
+        },
+        {
+          "codigo": "27695",
+          "nome": "Fundamentos Matemáticos",
+          "complemento": "NCC",
+          "professor": "Louise",
+          "sala": null,
+          "laboratorio": "XXIA 103",
+          "modalidade": "presencial",
+          "dia_semana": "Quarta"
+        },
+        {
+          "codigo": "27697",
+          "nome": "Sistemas Eletrônicos",
+          "complemento": null,
+          "professor": "Ênio",
+          "sala": null,
+          "laboratorio": null,
+          "modalidade": "presencial",
+          "dia_semana": "Quinta"
+        },
+        {
+          "codigo": "26974",
+          "nome": "Laboratório Formativo I",
+          "complemento": "NCI",
+          "professor": null,
+          "sala": null,
+          "laboratorio": null,
+          "modalidade": "a_distancia",
+          "dia_semana": "Sexta"
+        }
+      ]
+    },
+    {
+      "fase": 1,
+      "turma": "T2",
+      "disciplinas": [
+        {
+          "codigo": "27697",
+          "nome": "Sistemas Eletrônicos",
+          "complemento": null,
+          "professor": "Ênio",
+          "sala": "K-004",
+          "laboratorio": "XXIA 103",
+          "modalidade": "presencial",
+          "dia_semana": "Segunda"
+        },
+        {
+          "codigo": "27695",
+          "nome": "Fundamentos Matemáticos",
+          "complemento": "NCC",
+          "professor": "Adriano",
+          "sala": "K-004",
+          "laboratorio": "XXIA 003",
+          "modalidade": "presencial",
+          "dia_semana": "Terça"
+        },
+        {
+          "codigo": "27696",
+          "nome": "Evolução da Tecnologia",
+          "complemento": null,
+          "professor": "Diorgines",
+          "sala": null,
+          "laboratorio": null,
+          "modalidade": "presencial",
+          "dia_semana": "Quarta"
+        },
+        {
+          "codigo": "27694",
+          "nome": "Resoluções de Problemas Computacionais",
+          "complemento": null,
+          "professor": "Diorgines",
+          "sala": null,
+          "laboratorio": null,
+          "modalidade": "presencial",
+          "dia_semana": "Quinta"
+        },
+        {
+          "codigo": "26974",
+          "nome": "Laboratório Formativo I",
+          "complemento": "NCI",
+          "professor": null,
+          "sala": null,
+          "laboratorio": null,
+          "modalidade": "a_distancia",
+          "dia_semana": "Sexta"
+        }
+      ]
+    },
+    {
+      "fase": 2,
+      "turma": null,
+      "disciplinas": [
+        {
+          "codigo": "27701",
+          "nome": "Laboratório de Programação",
+          "complemento": "NCC",
+          "professor": "Luciano",
+          "sala": "K-003",
+          "laboratorio": "XXIA 001",
+          "modalidade": "presencial",
+          "dia_semana": "Segunda"
+        },
+        {
+          "codigo": "27702",
+          "nome": "Desenvolvimento de Aplicações I",
+          "complemento": "NCC",
+          "professor": "Giácomo",
+          "sala": "K-003",
+          "laboratorio": "XXIA 001",
+          "modalidade": "presencial",
+          "dia_semana": "Terça"
+        },
+        {
+          "codigo": "27699",
+          "nome": "Design de Interação",
+          "complemento": "NCC",
+          "professor": "Leila/Ana Claudia",
+          "sala": null,
+          "laboratorio": "XXIA 001",
+          "modalidade": "presencial",
+          "dia_semana": "Quarta"
+        },
+        {
+          "codigo": "27698",
+          "nome": "Funções e Derivadas",
+          "complemento": "NCA",
+          "professor": "Louise",
+          "sala": null,
+          "laboratorio": "XXIA 103",
+          "modalidade": "presencial",
+          "dia_semana": "Quinta",
+          "turma_referencia": "T2"
+        },
+        {
+          "codigo": "27023",
+          "nome": "Sistemas Digitais",
+          "complemento": null,
+          "professor": "Ênio",
+          "sala": null,
+          "laboratorio": null,
+          "modalidade": "presencial",
+          "dia_semana": "Sexta"
+        },
+        {
+          "codigo": "27700",
+          "nome": "Lógica Computacional",
+          "complemento": "NCC",
+          "professor": "Ênio",
+          "sala": null,
+          "laboratorio": null,
+          "modalidade": "presencial",
+          "dia_semana": "Sexta"
+        }
+      ]
+    },
+    {
+      "fase": 3,
+      "turma": "T1",
+      "disciplinas": [
+        {
+          "codigo": "27300",
+          "nome": "Cálculo Integral",
+          "complemento": "NCA",
+          "professor": "Louise",
+          "sala": "K-004",
+          "laboratorio": "XXIA 104",
+          "modalidade": "presencial",
+          "dia_semana": "Segunda",
+          "turma_referencia": "T2"
+        },
+        {
+          "codigo": "27705",
+          "nome": "Arquitetura de Computadores",
+          "complemento": null,
+          "professor": "Sergio",
+          "sala": null,
+          "laboratorio": "XXIA 104",
+          "modalidade": "presencial",
+          "dia_semana": "Terça"
+        },
+        {
+          "codigo": "27703",
+          "nome": "Gerenciamento de Dados I",
+          "complemento": "NCC",
+          "professor": "Marcel",
+          "sala": null,
+          "laboratorio": "XXIA 104",
+          "modalidade": "presencial",
+          "dia_semana": "Quarta"
+        },
+        {
+          "codigo": "27706",
+          "nome": "Programação Orientada à Objetos",
+          "complemento": null,
+          "professor": "Matheus",
+          "sala": null,
+          "laboratorio": "XXIA 104",
+          "modalidade": "presencial",
+          "dia_semana": "Quinta"
+        },
+        {
+          "codigo": "27309",
+          "nome": "Estatística",
+          "complemento": "NCA",
+          "professor": null,
+          "sala": null,
+          "laboratorio": null,
+          "modalidade": "a_distancia",
+          "dia_semana": "Sexta"
+        },
+        {
+          "codigo": "27704",
+          "nome": "Resolução de Problemas Estruturados I",
+          "complemento": "NCC",
+          "professor": "Andrigo/Diorgines",
+          "sala": null,
+          "laboratorio": null,
+          "modalidade": "presencial",
+          "dia_semana": "Sexta"
+        }
+      ]
+    },
+    {
+      "fase": 3,
+      "turma": "T2",
+      "disciplinas": [
+        {
+          "codigo": "27300",
+          "nome": "Cálculo Integral",
+          "complemento": "NCA",
+          "professor": "Kristian",
+          "sala": "R2-102",
+          "laboratorio": "XXIA 003",
+          "modalidade": "presencial",
+          "dia_semana": "Segunda",
+          "turma_referencia": "T4"
+        },
+        {
+          "codigo": "27704",
+          "nome": "Resolução de Problemas Estruturados I",
+          "complemento": "NCC",
+          "professor": "Diorgines",
+          "sala": null,
+          "laboratorio": "XXIA 003",
+          "modalidade": "presencial",
+          "dia_semana": "Terça"
+        },
+        {
+          "codigo": "27706",
+          "nome": "Programação Orientada à Objetos",
+          "complemento": null,
+          "professor": "Matheus",
+          "sala": null,
+          "laboratorio": "XXIA 202",
+          "modalidade": "presencial",
+          "dia_semana": "Quarta"
+        },
+        {
+          "codigo": "27703",
+          "nome": "Gerenciamento de Dados I",
+          "complemento": "NCC",
+          "professor": "Allan",
+          "sala": null,
+          "laboratorio": "XXIA 003",
+          "modalidade": "presencial",
+          "dia_semana": "Quinta"
+        },
+        {
+          "codigo": "27309",
+          "nome": "Estatística",
+          "complemento": "NCA",
+          "professor": null,
+          "sala": null,
+          "laboratorio": null,
+          "modalidade": "a_distancia",
+          "dia_semana": "Sexta"
+        },
+        {
+          "codigo": "27705",
+          "nome": "Arquitetura de Computadores",
+          "complemento": null,
+          "professor": "Sergio",
+          "sala": null,
+          "laboratorio": null,
+          "modalidade": "presencial",
+          "dia_semana": "Sexta"
+        }
+      ]
+    },
+    {
+      "fase": 4,
+      "turma": null,
+      "disciplinas": [
+        {
+          "codigo": "27709",
+          "nome": "Desenvolvimento de Aplicações II",
+          "complemento": "NCC",
+          "professor": "André",
+          "sala": "K-004",
+          "laboratorio": "XXIA 002",
+          "modalidade": "presencial",
+          "dia_semana": "Segunda"
+        },
+        {
+          "codigo": "27711",
+          "nome": "Resolução de Problemas Estruturados II",
+          "complemento": null,
+          "professor": "Marcel",
+          "sala": null,
+          "laboratorio": "XXIA 002",
+          "modalidade": "presencial",
+          "dia_semana": "Terça"
+        },
+        {
+          "codigo": "27707",
+          "nome": "Projeto e Otimização de Algoritmos",
+          "complemento": null,
+          "professor": "Allan",
+          "sala": null,
+          "laboratorio": "XXIA 002",
+          "modalidade": "presencial",
+          "dia_semana": "Quarta"
+        },
+        {
+          "codigo": "27710",
+          "nome": "Sistemas Operacionais",
+          "complemento": "NCC",
+          "professor": "Sergio",
+          "sala": null,
+          "laboratorio": "XXIA 002",
+          "modalidade": "presencial",
+          "dia_semana": "Quinta"
+        },
+        {
+          "codigo": "27708",
+          "nome": "Gerenciamento de Dados II",
+          "complemento": "NCC",
+          "professor": "Allan",
+          "sala": null,
+          "laboratorio": null,
+          "modalidade": "presencial",
+          "dia_semana": "Sexta"
+        },
+        {
+          "codigo": "27073",
+          "nome": "Cálculo Numérico",
+          "complemento": "NCC",
+          "professor": "Lucas Sid",
+          "sala": null,
+          "laboratorio": null,
+          "modalidade": "a_distancia",
+          "dia_semana": "Sábado"
+        }
+      ]
+    },
+    {
+      "fase": 5,
+      "turma": "T1",
+      "disciplinas": [
+        {
+          "codigo": "27715",
+          "nome": "Segurança da Informação",
+          "complemento": null,
+          "professor": "Cristiane",
+          "sala": null,
+          "laboratorio": "XXIA 104",
+          "modalidade": "presencial",
+          "dia_semana": "Segunda"
+        },
+        {
+          "codigo": "27714",
+          "nome": "Arquitetura de Redes I",
+          "complemento": "NCC",
+          "professor": "Valter",
+          "sala": null,
+          "laboratorio": "R2-008",
+          "modalidade": "presencial",
+          "dia_semana": "Terça"
+        },
+        {
+          "codigo": "27713",
+          "nome": "Teoria de Grafos",
+          "complemento": null,
+          "professor": "André",
+          "sala": null,
+          "laboratorio": "R2-008",
+          "modalidade": "presencial",
+          "dia_semana": "Quarta"
+        },
+        {
+          "codigo": "27712",
+          "nome": "Engenharia de Software I",
+          "complemento": "NCC",
+          "professor": "Ana Claudia",
+          "sala": null,
+          "laboratorio": "XXIA 001",
+          "modalidade": "presencial",
+          "dia_semana": "Quinta"
+        },
+        {
+          "codigo": "27716",
+          "nome": "Desenvolvimento para Dispositivos Móveis",
+          "complemento": "NCC",
+          "professor": "Matheus",
+          "sala": null,
+          "laboratorio": "R2-008",
+          "modalidade": "presencial",
+          "dia_semana": "Sexta"
+        },
+        {
+          "codigo": "27009",
+          "nome": "Laboratório Formativo II",
+          "complemento": "NCI",
+          "professor": null,
+          "sala": null,
+          "laboratorio": null,
+          "modalidade": "a_distancia",
+          "dia_semana": "Sábado"
+        }
+      ]
+    },
+    {
+      "fase": 5,
+      "turma": "T2",
+      "disciplinas": [
+        {
+          "codigo": "27716",
+          "nome": "Desenvolvimento para Dispositivos Móveis",
+          "complemento": "NCC",
+          "professor": "Matheus",
+          "sala": null,
+          "laboratorio": "XXIA 003",
+          "modalidade": "presencial",
+          "dia_semana": "Segunda"
+        },
+        {
+          "codigo": "27712",
+          "nome": "Engenharia de Software I",
+          "complemento": "NCC",
+          "professor": "Ana Claudia",
+          "sala": null,
+          "laboratorio": "XXIC 106",
+          "modalidade": "presencial",
+          "dia_semana": "Terça"
+        },
+        {
+          "codigo": "27715",
+          "nome": "Segurança da Informação",
+          "complemento": null,
+          "professor": "Cristiane",
+          "sala": null,
+          "laboratorio": "XXIA 103",
+          "modalidade": "presencial",
+          "dia_semana": "Quarta"
+        },
+        {
+          "codigo": "27714",
+          "nome": "Arquitetura de Redes I",
+          "complemento": "NCC",
+          "professor": "Valter",
+          "sala": null,
+          "laboratorio": "XXIA 002",
+          "modalidade": "presencial",
+          "dia_semana": "Quinta"
+        },
+        {
+          "codigo": "27713",
+          "nome": "Teoria de Grafos",
+          "complemento": null,
+          "professor": "André",
+          "sala": null,
+          "laboratorio": "XXIA 001",
+          "modalidade": "presencial",
+          "dia_semana": "Sexta"
+        },
+        {
+          "codigo": "27009",
+          "nome": "Laboratório Formativo II",
+          "complemento": "NCI",
+          "professor": null,
+          "sala": null,
+          "laboratorio": null,
+          "modalidade": "a_distancia",
+          "dia_semana": "Sábado"
+        }
+      ]
+    },
+    {
+      "fase": 6,
+      "turma": null,
+      "disciplinas": [
+        {
+          "codigo": "27720",
+          "nome": "Engenharia de Software II",
+          "complemento": "NCC",
+          "professor": "Ana Claudia",
+          "sala": null,
+          "laboratorio": "XXIA 101",
+          "modalidade": "presencial",
+          "dia_semana": "Segunda"
+        },
+        {
+          "codigo": "27717",
+          "nome": "Linguagens Formais e Autômatos",
+          "complemento": null,
+          "professor": "André",
+          "sala": null,
+          "laboratorio": "XXIA 101",
+          "modalidade": "presencial",
+          "dia_semana": "Terça"
+        },
+        {
+          "codigo": "23245",
+          "nome": "Projeto em Computação",
+          "complemento": null,
+          "professor": "Fiera",
+          "sala": null,
+          "laboratorio": "XXIA 101",
+          "modalidade": "presencial",
+          "dia_semana": "Quarta"
+        },
+        {
+          "codigo": "27718",
+          "nome": "Arquitetura de Redes II",
+          "complemento": null,
+          "professor": "Rogério",
+          "sala": null,
+          "laboratorio": "XXIA 101",
+          "modalidade": "presencial",
+          "dia_semana": "Quinta"
+        },
+        {
+          "codigo": "27719",
+          "nome": "Internet das Coisas",
+          "complemento": null,
+          "professor": "Valter",
+          "sala": null,
+          "laboratorio": "XXIA 101",
+          "modalidade": "presencial",
+          "dia_semana": "Sexta"
+        },
+        {
+          "codigo": null,
+          "nome": "Optativa I",
+          "complemento": null,
+          "professor": null,
+          "sala": null,
+          "laboratorio": null,
+          "modalidade": "a_distancia",
+          "dia_semana": "Sábado",
+          "observacao": "TCC I - G5"
+        }
+      ]
+    },
+    {
+      "fase": 7,
+      "turma": "T1",
+      "disciplinas": [
+        {
+          "codigo": "27729",
+          "nome": "Computação Paralela e Distribuída",
+          "complemento": null,
+          "professor": "Marcel",
+          "sala": null,
+          "laboratorio": "XXIA 201",
+          "modalidade": "presencial",
+          "dia_semana": "Segunda"
+        },
+        {
+          "codigo": "27727",
+          "nome": "Inteligência Artificial",
+          "complemento": "NCC",
+          "professor": "Merisandra",
+          "sala": null,
+          "laboratorio": "XXIA 201",
+          "modalidade": "presencial",
+          "dia_semana": "Terça"
+        },
+        {
+          "codigo": "27731",
+          "nome": "Realidade Virtual e Aumentada",
+          "complemento": null,
+          "professor": "Giácomo",
+          "sala": null,
+          "laboratorio": "XXIA 201",
+          "modalidade": "presencial",
+          "dia_semana": "Quarta"
+        },
+        {
+          "codigo": "27730",
+          "nome": "Projeto Inovador I",
+          "complemento": null,
+          "professor": "Marlon",
+          "sala": null,
+          "laboratorio": "XXIA 201",
+          "modalidade": "presencial",
+          "dia_semana": "Quinta"
+        },
+        {
+          "codigo": "27728",
+          "nome": "Compiladores",
+          "complemento": null,
+          "professor": "Marlon",
+          "sala": null,
+          "laboratorio": null,
+          "modalidade": "presencial",
+          "dia_semana": "Sexta"
+        },
+        {
+          "codigo": "27725",
+          "nome": "Computação Gráfica",
+          "complemento": null,
+          "professor": "Marcel",
+          "sala": null,
+          "laboratorio": null,
+          "modalidade": "a_distancia",
+          "dia_semana": "Sábado"
+        },
+        {
+          "codigo": "27015",
+          "nome": "Laboratório Formativo III",
+          "complemento": "NCI",
+          "professor": null,
+          "sala": null,
+          "laboratorio": null,
+          "modalidade": "a_distancia",
+          "dia_semana": "Sábado"
+        }
+      ]
+    },
+    {
+      "fase": 7,
+      "turma": "T2",
+      "disciplinas": [
+        {
+          "codigo": "27731",
+          "nome": "Realidade Virtual e Aumentada",
+          "complemento": null,
+          "professor": "Giácomo",
+          "sala": null,
+          "laboratorio": "XXIA 202",
+          "modalidade": "presencial",
+          "dia_semana": "Segunda"
+        },
+        {
+          "codigo": "27728",
+          "nome": "Compiladores",
+          "complemento": null,
+          "professor": "Marlon",
+          "sala": null,
+          "laboratorio": "XXIA 202",
+          "modalidade": "presencial",
+          "dia_semana": "Terça"
+        },
+        {
+          "codigo": "27727",
+          "nome": "Inteligência Artificial",
+          "complemento": "NCC",
+          "professor": "Merisandra",
+          "sala": null,
+          "laboratorio": "XXIA 202",
+          "modalidade": "presencial",
+          "dia_semana": "Quarta"
+        },
+        {
+          "codigo": "27730",
+          "nome": "Projeto Inovador I",
+          "complemento": null,
+          "professor": "Marlon",
+          "sala": null,
+          "laboratorio": "XXIA 201",
+          "modalidade": "presencial",
+          "dia_semana": "Quinta"
+        },
+        {
+          "codigo": "27729",
+          "nome": "Computação Paralela e Distribuída",
+          "complemento": null,
+          "professor": "Marcel",
+          "sala": null,
+          "laboratorio": "XXIA 202",
+          "modalidade": "presencial",
+          "dia_semana": "Sexta"
+        },
+        {
+          "codigo": "27725",
+          "nome": "Computação Gráfica",
+          "complemento": null,
+          "professor": "Marcel",
+          "sala": null,
+          "laboratorio": null,
+          "modalidade": "a_distancia",
+          "dia_semana": "Sábado"
+        },
+        {
+          "codigo": "23279",
+          "nome": "TCC II",
+          "complemento": null,
+          "professor": null,
+          "sala": null,
+          "laboratorio": null,
+          "modalidade": "a_distancia",
+          "dia_semana": "Sábado",
+          "observacao": "G4 e G5"
+        },
+        {
+          "codigo": "27015",
+          "nome": "Laboratório Formativo III",
+          "complemento": "NCI",
+          "professor": null,
+          "sala": null,
+          "laboratorio": null,
+          "modalidade": "a_distancia",
+          "dia_semana": "Sábado"
+        }
+      ]
+    },
+    {
+      "fase": 8,
+      "turma": null,
+      "disciplinas": [
+        {
+          "codigo": "10894",
+          "nome": "Projeto Inovador II",
+          "complemento": null,
+          "professor": "Marlon",
+          "sala": null,
+          "laboratorio": "XXIA 102",
+          "modalidade": "presencial",
+          "dia_semana": "Segunda"
+        },
+        {
+          "codigo": "33402",
+          "nome": "Desenvolvimento Backend com Spring",
+          "complemento": "Optativa II",
+          "professor": "Matheus",
+          "sala": null,
+          "laboratorio": "XXIA 102",
+          "modalidade": "presencial",
+          "dia_semana": "Terça"
+        },
+        {
+          "codigo": "27733",
+          "nome": "Projeto Inovador II",
+          "complemento": null,
+          "professor": "Marlon",
+          "sala": null,
+          "laboratorio": "XXIA 102",
+          "modalidade": "presencial",
+          "dia_semana": "Quarta"
+        },
+        {
+          "codigo": "27737",
+          "nome": "Cloud Computing",
+          "complemento": null,
+          "professor": "Fiera",
+          "sala": null,
+          "laboratorio": "XXIA 102",
+          "modalidade": "presencial",
+          "dia_semana": "Quinta"
+        },
+        {
+          "codigo": "27732",
+          "nome": "Análise de Dados",
+          "complemento": null,
+          "professor": "Andrigo",
+          "sala": null,
+          "laboratorio": "XXIA 102",
+          "modalidade": "presencial",
+          "dia_semana": "Sexta"
+        },
+        {
+          "codigo": "27736",
+          "nome": "Data Science",
+          "complemento": null,
+          "professor": "Allan/Leila",
+          "sala": null,
+          "laboratorio": null,
+          "modalidade": "a_distancia",
+          "dia_semana": "Sábado",
+          "observacao": "TCC III - G5"
+        },
+        {
+          "codigo": "27734",
+          "nome": "Governança em TI",
+          "complemento": null,
+          "professor": null,
+          "sala": null,
+          "laboratorio": null,
+          "modalidade": "a_distancia",
+          "dia_semana": "Sábado",
+          "observacao": "TCC III - G4"
+        },
+        {
+          "codigo": "23280",
+          "nome": "TCC III",
+          "complemento": null,
+          "professor": null,
+          "sala": null,
+          "laboratorio": null,
+          "modalidade": "a_distancia",
+          "dia_semana": "Sábado",
+          "observacao": "G5"
+        }
+      ]
+    }
+  ]
+}
