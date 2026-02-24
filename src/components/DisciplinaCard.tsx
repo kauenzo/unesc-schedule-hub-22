@@ -1,7 +1,7 @@
 import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
 import type { DisciplinaComContexto, Disciplina } from "@/types/horarios";
-import { MapPin, Monitor, User, Calendar, Wifi, AlertTriangle } from "lucide-react";
+import { MapPin, Monitor, User, Calendar, Wifi, AlertTriangle, FlaskConical } from "lucide-react";
 
 interface DisciplinaCardProps {
   disciplina: Disciplina | DisciplinaComContexto;
@@ -31,7 +31,7 @@ export function DisciplinaCard({ disciplina, fase, turma, onClick, searchQuery, 
   const contextFase = "fase" in disciplina ? (disciplina as DisciplinaComContexto).fase : fase;
   const contextTurma = "turma" in disciplina ? (disciplina as DisciplinaComContexto).turma : turma;
   const isDistancia = disciplina.modalidade === "a_distancia";
-  const local = disciplina.laboratorio || disciplina.sala || "Sala não informada";
+  
   const GRADE_ANTERIOR_CODIGOS = ["23245", "23279", "10889", "23280"];
   const isGradeAtual = !GRADE_ANTERIOR_CODIGOS.includes(disciplina.codigo);
 
@@ -74,10 +74,24 @@ export function DisciplinaCard({ disciplina, fase, turma, onClick, searchQuery, 
           <Calendar className="w-3 h-3 shrink-0" />
           <span>{disciplina.dia_semana}</span>
         </div>
-        <div className="flex items-center gap-1">
-          <MapPin className="w-3 h-3 shrink-0" />
-          <span className="truncate">{searchQuery ? highlightText(local, searchQuery) : local}</span>
-        </div>
+        {disciplina.sala && (
+          <div className="flex items-center gap-1">
+            <MapPin className="w-3 h-3 shrink-0" />
+            <span className="truncate">{searchQuery ? highlightText(disciplina.sala, searchQuery) : disciplina.sala}</span>
+          </div>
+        )}
+        {disciplina.laboratorio && (
+          <div className="flex items-center gap-1">
+            <FlaskConical className="w-3 h-3 shrink-0" />
+            <span className="truncate">{searchQuery ? highlightText(disciplina.laboratorio, searchQuery) : disciplina.laboratorio}</span>
+          </div>
+        )}
+        {!disciplina.sala && !disciplina.laboratorio && (
+          <div className="flex items-center gap-1">
+            <MapPin className="w-3 h-3 shrink-0" />
+            <span className="truncate">Sala não informada</span>
+          </div>
+        )}
         {disciplina.professor && (
           <div className="flex items-center gap-1 col-span-2">
             <User className="w-3 h-3 shrink-0" />
