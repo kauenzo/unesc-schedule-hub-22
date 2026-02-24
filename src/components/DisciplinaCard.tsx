@@ -32,7 +32,8 @@ export function DisciplinaCard({ disciplina, fase, turma, onClick, searchQuery, 
   const contextTurma = "turma" in disciplina ? (disciplina as DisciplinaComContexto).turma : turma;
   const isDistancia = disciplina.modalidade === "a_distancia";
   const local = disciplina.laboratorio || disciplina.sala || "Sala não informada";
-  const isGradeAtual = contextFase === 6;
+  const GRADE_ANTERIOR_CODIGOS = ["23245", "23279", "10889", "23280", "10894"];
+  const isGradeAtual = !GRADE_ANTERIOR_CODIGOS.includes(disciplina.codigo);
 
   return (
     <Card
