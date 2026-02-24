@@ -6,13 +6,16 @@ import {
   DrawerDescription,
 } from "@/components/ui/drawer";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 import type { DisciplinaComContexto } from "@/types/horarios";
-import { MapPin, User, Calendar, BookOpen, Hash, Monitor, Wifi, FlaskConical, MessageSquare } from "lucide-react";
+import { MapPin, User, Calendar, Hash, Monitor, Wifi, FlaskConical, MessageSquare, BookmarkPlus, BookmarkMinus } from "lucide-react";
 
 interface DisciplinaDetailProps {
   disciplina: DisciplinaComContexto | null;
   open: boolean;
   onClose: () => void;
+  isSalva?: boolean;
+  onToggle?: (d: DisciplinaComContexto) => void;
 }
 
 function DetailRow({ icon: Icon, label, value }: { icon: React.ElementType; label: string; value: string | null | undefined }) {
@@ -28,9 +31,10 @@ function DetailRow({ icon: Icon, label, value }: { icon: React.ElementType; labe
   );
 }
 
-export function DisciplinaDetail({ disciplina, open, onClose }: DisciplinaDetailProps) {
+export function DisciplinaDetail({ disciplina, open, onClose, isSalva, onToggle }: DisciplinaDetailProps) {
   if (!disciplina) return null;
   const isDistancia = disciplina.modalidade === "a_distancia";
+  const salaLabel = disciplina.sala || (!disciplina.laboratorio ? "Sala não informada" : null);
 
   return (
     <Drawer open={open} onOpenChange={(o) => !o && onClose()}>
@@ -59,10 +63,32 @@ export function DisciplinaDetail({ disciplina, open, onClose }: DisciplinaDetail
             <DetailRow icon={Hash} label="Código" value={disciplina.codigo} />
             <DetailRow icon={Calendar} label="Dia da Semana" value={disciplina.dia_semana} />
             <DetailRow icon={User} label="Professor" value={disciplina.professor} />
-            <DetailRow icon={MapPin} label="Sala" value={disciplina.sala} />
+            <DetailRow icon={MapPin} label="Sala" value={salaLabel} />
             <DetailRow icon={FlaskConical} label="Laboratório" value={disciplina.laboratorio} />
             <DetailRow icon={MessageSquare} label="Observação" value={disciplina.observacao} />
           </div>
+
+          {onToggle && (
+            <div className="pt-4">
+              <Button
+                className="w-full rounded-full"
+                variant={isSalva ? "outline" : "default"}
+                onClick={() => onToggle(disciplina)}
+              >
+                {isSalva ? (
+                  <>
+                    <BookmarkMinus className="w-4 h-4 mr-2" />
+                    Remover das minhas aulas
+                  </>
+                ) : (
+                  <>
+                    <BookmarkPlus className="w-4 h-4 mr-2" />
+                    Adicionar às minhas aulas
+                  </>
+                )}
+              </Button>
+            </div>
+          )}
         </div>
       </DrawerContent>
     </Drawer>
