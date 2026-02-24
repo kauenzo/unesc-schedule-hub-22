@@ -30,7 +30,7 @@ export function DisciplinaCard({ disciplina, fase, turma, onClick, searchQuery }
   const contextFase = "fase" in disciplina ? (disciplina as DisciplinaComContexto).fase : fase;
   const contextTurma = "turma" in disciplina ? (disciplina as DisciplinaComContexto).turma : turma;
   const isDistancia = disciplina.modalidade === "a_distancia";
-  const local = disciplina.laboratorio || disciplina.sala || "—";
+  const local = disciplina.laboratorio || disciplina.sala || "Sala não informada";
 
   return (
     <Card
