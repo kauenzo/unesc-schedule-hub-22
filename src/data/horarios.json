@@ -539,7 +539,7 @@
           "dia_semana": "Terça"
         },
         {
-          "codigo": "23245",
+          "codigo": "27721",
           "nome": "Projeto em Computação",
           "complemento": null,
           "professor": "Fiera",
@@ -547,6 +547,17 @@
           "laboratorio": "XXIA 101",
           "modalidade": "presencial",
           "dia_semana": "Quarta"
+        },
+        {
+          "codigo": "23245",
+          "nome": "TCC I",
+          "complemento": null,
+          "professor": null,
+          "sala": null,
+          "laboratorio": "XXIA 101",
+          "modalidade": "presencial",
+          "dia_semana": "Quarta",
+          "observacao": "G5"
         },
         {
           "codigo": "27718",
@@ -626,6 +637,28 @@
           "dia_semana": "Quinta"
         },
         {
+          "codigo": "23279",
+          "nome": "TCC II",
+          "complemento": null,
+          "professor": null,
+          "sala": null,
+          "laboratorio": "XXIA 201",
+          "modalidade": "presencial",
+          "dia_semana": "Quinta",
+          "observacao": "G4"
+        },
+        {
+          "codigo": "10889",
+          "nome": "TCC II",
+          "complemento": null,
+          "professor": null,
+          "sala": null,
+          "laboratorio": "XXIA 201",
+          "modalidade": "presencial",
+          "dia_semana": "Quinta",
+          "observacao": "G5"
+        },
+        {
           "codigo": "27728",
           "nome": "Compiladores",
           "complemento": null,
@@ -702,6 +735,28 @@
           "dia_semana": "Quinta"
         },
         {
+          "codigo": "23279",
+          "nome": "TCC II",
+          "complemento": null,
+          "professor": null,
+          "sala": null,
+          "laboratorio": "XXIA 201",
+          "modalidade": "presencial",
+          "dia_semana": "Quinta",
+          "observacao": "G4"
+        },
+        {
+          "codigo": "10889",
+          "nome": "TCC II",
+          "complemento": null,
+          "professor": null,
+          "sala": null,
+          "laboratorio": "XXIA 201",
+          "modalidade": "presencial",
+          "dia_semana": "Quinta",
+          "observacao": "G5"
+        },
+        {
           "codigo": "27729",
           "nome": "Computação Paralela e Distribuída",
           "complemento": null,
@@ -757,6 +812,28 @@
           "laboratorio": "XXIA 102",
           "modalidade": "presencial",
           "dia_semana": "Segunda"
+        },
+        {
+          "codigo": "23280",
+          "nome": "TCC III",
+          "complemento": null,
+          "professor": null,
+          "sala": null,
+          "laboratorio": "XXIA 102",
+          "modalidade": "presencial",
+          "dia_semana": "Segunda",
+          "observacao": "G5"
+        },
+        {
+          "codigo": null,
+          "nome": "TCC III",
+          "complemento": null,
+          "professor": null,
+          "sala": null,
+          "laboratorio": "XXIA 102",
+          "modalidade": "presencial",
+          "dia_semana": "Segunda",
+          "observacao": "G4"
         },
         {
           "codigo": "33402",
@@ -820,17 +897,6 @@
           "dia_semana": "Sábado",
           "observacao": "TCC III - G4"
         },
-        {
-          "codigo": "23280",
-          "nome": "TCC III",
-          "complemento": null,
-          "professor": null,
-          "sala": null,
-          "laboratorio": null,
-          "modalidade": "a_distancia",
-          "dia_semana": "Sábado",
-          "observacao": "G5"
-        }
       ]
     }
   ]
