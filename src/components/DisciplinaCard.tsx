@@ -1,7 +1,7 @@
 import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
 import type { DisciplinaComContexto, Disciplina } from "@/types/horarios";
-import { MapPin, Monitor, User, Calendar, Wifi } from "lucide-react";
+import { MapPin, Monitor, User, Calendar, Wifi, AlertTriangle } from "lucide-react";
 
 interface DisciplinaCardProps {
   disciplina: Disciplina | DisciplinaComContexto;
@@ -32,6 +32,7 @@ export function DisciplinaCard({ disciplina, fase, turma, onClick, searchQuery, 
   const contextTurma = "turma" in disciplina ? (disciplina as DisciplinaComContexto).turma : turma;
   const isDistancia = disciplina.modalidade === "a_distancia";
   const local = disciplina.laboratorio || disciplina.sala || "Sala não informada";
+  const isGradeAtual = contextFase === 6;
 
   return (
     <Card
@@ -82,8 +83,14 @@ export function DisciplinaCard({ disciplina, fase, turma, onClick, searchQuery, 
       </div>
 
       {(contextFase || contextTurma) && (
-        <div className="mt-2 pt-2 border-t flex gap-1.5">
-          {contextFase && (
+        <div className="mt-2 pt-2 border-t flex gap-1.5 flex-wrap">
+          {contextFase && !isGradeAtual && (
+            <Badge variant="outline" className="text-[10px] px-1.5 py-0 border-destructive/50 bg-destructive/10 text-destructive">
+              <AlertTriangle className="w-3 h-3 mr-0.5" />
+              Fase {contextFase} — grade anterior
+            </Badge>
+          )}
+          {contextFase && isGradeAtual && (
             <Badge variant="secondary" className="text-[10px] px-1.5 py-0">
               Fase {contextFase}
             </Badge>
