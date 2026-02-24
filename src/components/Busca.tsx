@@ -25,6 +25,8 @@ const TCC_MATERIAS = [
   "projeto inovador ii",
   "projeto inovador 1",
   "projeto inovador 2",
+  "tcc ii",
+  "tcc iii",
 ];
 
 const DIA_SEMANA_MAP: Record<number, string> = {
