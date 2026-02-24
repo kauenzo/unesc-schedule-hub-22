@@ -5,12 +5,13 @@ import { GradePorFase } from "@/components/GradePorFase";
 import { Busca } from "@/components/Busca";
 import { MinhasAulas } from "@/components/MinhasAulas";
 import { DisciplinaDetail } from "@/components/DisciplinaDetail";
+import { Button } from "@/components/ui/button";
 import { Alert, AlertDescription } from "@/components/ui/alert";
 import { useMinhasAulas } from "@/hooks/useMinhasAulas";
 import { useToast } from "@/hooks/use-toast";
 import horariosData from "@/data/horarios.json";
 import type { HorariosData, DisciplinaComContexto } from "@/types/horarios";
-import { GraduationCap, LayoutGrid, Layers, Search, Bookmark, AlertTriangle } from "lucide-react";
+import { GraduationCap, LayoutGrid, Layers, Search, Bookmark, AlertTriangle, Github, ExternalLink } from "lucide-react";
 
 const data = horariosData as HorariosData;
 
@@ -101,6 +102,38 @@ const Index = () => {
         isSalva={selected ? isAulaSalva(selected) : false}
         onToggle={handleToggle}
       />
+
+      {/* Footer */}
+      <footer className="border-t bg-secondary/30 py-6 mt-8">
+        <div className="max-w-2xl mx-auto px-4 flex flex-col items-center gap-3 text-center">
+          <p className="text-xs text-muted-foreground">
+            Feito por{" "}
+            <a href="https://github.com/kauenzo" target="_blank" rel="noopener noreferrer" className="font-medium text-primary hover:underline">
+              Kauê
+            </a>
+          </p>
+          <div className="flex flex-wrap items-center justify-center gap-2">
+            <a href="https://github.com/kauenzo/unesc-schedule-hub-22" target="_blank" rel="noopener noreferrer">
+              <Button variant="outline" size="sm" className="rounded-full text-xs gap-1.5">
+                <Github className="w-3.5 h-3.5" />
+                Repositório
+              </Button>
+            </a>
+            <a href="https://github.com/kauenzo" target="_blank" rel="noopener noreferrer">
+              <Button variant="outline" size="sm" className="rounded-full text-xs gap-1.5">
+                <Github className="w-3.5 h-3.5" />
+                GitHub
+              </Button>
+            </a>
+            <a href="https://www.aaact.com.br" target="_blank" rel="noopener noreferrer">
+              <Button variant="outline" size="sm" className="rounded-full text-xs gap-1.5">
+                <ExternalLink className="w-3.5 h-3.5" />
+                Atlética
+              </Button>
+            </a>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 };
