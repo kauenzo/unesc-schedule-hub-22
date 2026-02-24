@@ -52,9 +52,9 @@ const Index = () => {
 
       {/* Content */}
       <main className="max-w-2xl mx-auto px-4 py-4 pb-20">
-        <Alert className="mb-4 border-muted bg-muted/30">
-          <AlertTriangle className="w-4 h-4" />
-          <AlertDescription className="text-xs">
+        <Alert className="mb-4 border-destructive/40 bg-destructive/10">
+          <AlertTriangle className="w-4 h-4 text-destructive" />
+          <AlertDescription className="text-xs text-destructive font-medium">
             As informações exibidas podem estar desatualizadas. Consulte a secretaria para confirmar.
           </AlertDescription>
         </Alert>

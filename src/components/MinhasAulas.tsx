@@ -53,18 +53,16 @@ export function MinhasAulas({ aulas, onSelectDisciplina }: MinhasAulasProps) {
     return acc;
   }, {});
 
-  // Sort: próximo dia first
-  const sortedDias = Object.keys(grouped).sort((a, b) => {
-    if (a === proximoDia) return -1;
-    if (b === proximoDia) return 1;
-    return DIAS_ORDEM.indexOf(a) - DIAS_ORDEM.indexOf(b);
-  });
+  // Keep natural day order (don't reorder)
+  const sortedDias = Object.keys(grouped).sort((a, b) =>
+    DIAS_ORDEM.indexOf(a) - DIAS_ORDEM.indexOf(b)
+  );
 
   return (
     <div className="space-y-4">
-      <Alert className="border-muted bg-muted/30">
-        <Info className="w-4 h-4" />
-        <AlertDescription className="text-xs">
+      <Alert className="border-accent/40 bg-accent/10">
+        <Info className="w-4 h-4 text-accent" />
+        <AlertDescription className="text-xs text-accent font-medium">
           Suas aulas são salvas apenas neste navegador. Se trocar de dispositivo ou limpar os dados, será necessário adicioná-las novamente.
         </AlertDescription>
       </Alert>
@@ -83,7 +81,7 @@ export function MinhasAulas({ aulas, onSelectDisciplina }: MinhasAulasProps) {
                 </Badge>
               )}
             </div>
-            <div className={`grid gap-2 sm:grid-cols-2 ${isProximo ? "ring-2 ring-primary/20 rounded-lg p-2 -m-2" : ""}`}>
+            <div className={`grid gap-2 sm:grid-cols-2 ${isProximo ? "ring-2 ring-accent/50 rounded-xl p-2.5 -m-2.5 bg-accent/5" : ""}`}>
               {grouped[dia].map((d, i) => (
                 <DisciplinaCard
                   key={`${d.codigo}-${d.fase}-${d.turma}-${i}`}
