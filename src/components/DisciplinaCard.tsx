@@ -41,9 +41,14 @@ export function DisciplinaCard({ disciplina, fase, turma, onClick, searchQuery, 
       onClick={onClick}
     >
       <div className="flex items-start justify-between gap-2 mb-2">
-        <h4 className="font-semibold text-sm leading-tight group-hover:text-primary transition-colors">
-          {searchQuery ? highlightText(disciplina.nome, searchQuery) : disciplina.nome}
-        </h4>
+        <div>
+          <h4 className="font-semibold text-sm leading-tight group-hover:text-primary transition-colors">
+            {searchQuery ? highlightText(disciplina.nome, searchQuery) : disciplina.nome}
+          </h4>
+          {disciplina.codigo && (
+            <span className="text-[10px] text-muted-foreground">Cód. {disciplina.codigo}</span>
+          )}
+        </div>
         <div className="flex gap-1 shrink-0">
           {isHoje && (
             <Badge className="text-[10px] px-1.5 py-0 bg-accent/15 text-accent border-accent/30" variant="outline">
