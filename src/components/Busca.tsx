@@ -25,6 +25,7 @@ const TCC_MATERIAS = [
   "projeto inovador ii",
   "projeto inovador 1",
   "projeto inovador 2",
+  "tcc i",
   "tcc ii",
   "tcc iii",
 ];
