@@ -1,6 +1,6 @@
 import { DisciplinaCard } from "./DisciplinaCard";
 import type { DisciplinaComContexto } from "@/types/horarios";
-import { BookmarkX, Sparkles, Info } from "lucide-react";
+import { BookmarkX, Sparkles, Info, AlertTriangle } from "lucide-react";
 import { Alert, AlertDescription } from "@/components/ui/alert";
 import { Badge } from "@/components/ui/badge";
 
@@ -19,6 +19,8 @@ const DIA_MAP: Record<string, number> = {
   Sexta: 5,
   "Sábado": 6,
 };
+
+const HOJE_DIA = new Date().getDay();
 
 function getProximoDia(aulas: DisciplinaComContexto[]): string | null {
   if (aulas.length === 0) return null;
@@ -89,6 +91,7 @@ export function MinhasAulas({ aulas, onSelectDisciplina }: MinhasAulasProps) {
                   fase={d.fase}
                   turma={d.turma}
                   onClick={() => onSelectDisciplina(d)}
+                  isHoje={DIA_MAP[dia] === HOJE_DIA}
                 />
               ))}
             </div>
