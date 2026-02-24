@@ -43,8 +43,8 @@ const Index = () => {
               <GraduationCap className="w-5 h-5 text-primary-foreground" />
             </div>
             <div>
-              <h1 className="text-lg font-bold leading-tight">CC 2026/1 — Horários</h1>
-              <p className="text-xs text-muted-foreground">Ciência da Computação · UNESC</p>
+              <h1 className="text-lg font-bold leading-tight">Horários e Salas</h1>
+              <p className="text-xs text-muted-foreground">Ciência da Computação · UNESC · 2026/1</p>
             </div>
           </div>
         </div>
