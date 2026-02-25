@@ -27,7 +27,15 @@ export function GradeCompleta({ fases, onSelectDisciplina }: GradeCompletaProps)
                   Fase {num}
                 </span>
                 <Badge variant="secondary" className="text-[10px]">
-                  {entries.reduce((s, e) => s + e.disciplinas.length, 0)} disciplinas
+                  {(() => {
+                    const uniqueCodigos = new Set(
+                      entries.flatMap(e =>
+                        e.disciplinas.map(d => d.codigo ?? `${d.nome}-${d.complemento ?? ""}`)
+                      )
+                    )
+
+                    return uniqueCodigos.size
+                  })()} disciplinas
                 </Badge>
                 {entries.length > 1 && (
                   <Badge variant="outline" className="text-[10px]">
